@@ -1,0 +1,39 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /* debug */
+  border: 1px solid black;
+}
+
+.square {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  background-color: lightblue;
+  border-radius: 20px;
+  padding: 15px 25px 30px 50px;
+  /* margin: 10px 20px 25px 30px; */
+  margin: 0 auto;
+}
+
+.border {
+  border: 10px solid black;
+}
+
+img {
+  width: 100px;
+}
+
+span {
+  display: inline-block;
+  width: 100px;
+  background-color: lightcoral;
+  padding: 10px;
+}
