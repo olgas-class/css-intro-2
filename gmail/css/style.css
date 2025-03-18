@@ -16,10 +16,13 @@ img {
   margin: 0 auto;
 }
 
+.padding-y-10 {
+  padding: 10px 0;
+}
+
 /* HEADER */
 .header {
   background-color: gray;
-  padding: 10px 0;
 }
 
 .header img {
@@ -30,4 +33,45 @@ img {
 .header span {
   font-size: 20px;
   vertical-align: middle;
+}
+
+/* MAIN */
+.main-section {
+  border-bottom: 1px solid darkblue;
+}
+
+.accent {
+  font-size: 20px;
+}
+
+.circle {
+  display: inline-block;
+  background-color: orange;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.email-list {
+  list-style: none;
+}
+
+.email-list .content {
+  color: gray;
+}
+
+.email-list li {
+  background-color: lightgrey;
+  padding: 5px 0;
+  border-bottom: 1px solid gray;
+}
+
+.email-list .opened {
+  background-color: white;
+}
+
+.author {
+  text-align: center;
 }
