@@ -9,6 +9,7 @@
 /* Typography */
 body {
   font-family: sans-serif;
+  background-color: rgb(122, 65, 24);
 }
 
 /* Utlities */
@@ -31,6 +32,22 @@ body {
 }
 
 /* HEADER */
+header {
+  color: white;
+  padding: 20px 0;
+  border-bottom: 1px solid white;
+}
+
+#logo {
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.logo-text {
+  vertical-align: middle;
+  font-size: 24px;
+}
 
 /* MAIN */
 
