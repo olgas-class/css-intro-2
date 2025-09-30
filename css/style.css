@@ -92,3 +92,16 @@ section {
 }
 
 /* FOOTER */
+footer {
+  margin-top: 20px;
+}
+
+.copy {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.copy em {
+  font-size: 14px;
+}
