@@ -1,0 +1,37 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMMON */
+/* Typography */
+body {
+  font-family: sans-serif;
+}
+
+/* Utlities */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+/* Layout */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */
