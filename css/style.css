@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
 /* COMMON */
 /* Typography */
 body {
@@ -71,6 +75,20 @@ section {
   line-height: 50px;
   border-radius: 50%;
   text-align: center;
+}
+
+.email-list li {
+  background-color: rgb(168, 167, 167);
+  padding: 5px 2px;
+  border: 1px solid black;
+}
+
+.email-list .read {
+  background-color: rgb(231, 228, 228);
+}
+
+.email-content {
+  color: rgb(101, 101, 101);
 }
 
 /* FOOTER */
